@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add" android:title="add employee" android:icon="@drawable/register_new_user"/>
+    <item android:id="@+id/delete" android:title="delete employee" android:icon="@drawable/ic_delete_black_24dp"/>
+    <item android:id="@+id/approve" android:title="approve leave" android:icon="@drawable/ic_check_black_24dp"/>
+    <item android:id="@+id/decline" android:title="decline leave" android:icon="@drawable/ic_clear_black_24dp"/>
+
+</menu>

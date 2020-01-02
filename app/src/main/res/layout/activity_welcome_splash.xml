@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:paddingBottom="16dp"
+    android:background="#3F51B5"
+    tools:context=".welcomeSplash">
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/calendar_icon"
+        android:id="@+id/imageView"/>
+    <TextView
+
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:id="@+id/tv"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_above="@id/imageView"
+        android:text="LEAVE MANAGEMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/imageView"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/coco"
+    tools:context="com.example.splashscreen.AdminEmployee">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/adminbtn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admintv"
+        android:layout_below="@id/adminbtn"
+        android:textSize="30sp"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/employeebtn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/employeetv"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:fontFeatureSettings="@string/action_sign_in"
+        android:layout_below="@id/employeebtn"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:text="User"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+
+</RelativeLayout>

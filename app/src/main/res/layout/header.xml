@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:padding="20dp"
+    android:layout_height="160dp">
+    <ImageView
+        android:src="@drawable/calendar_icon"
+        android:layout_width="75dp"
+        android:id="@+id/image"
+        android:layout_height="75dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave Management"
+        android:layout_below="@id/image"
+        android:textStyle="bold"
+        android:id="@+id/tv"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:text="leave@gmail.com"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
